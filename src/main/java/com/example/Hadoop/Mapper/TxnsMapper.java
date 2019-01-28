@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.MultipleInputs;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-/* Mapper class for Transaction Data */
+/* Mapper class for transaction Data */
 public static class TxnsMapper extends Mapper <Object, Text, Text, Text>
     {
         public void map(Object key, Text value, Context context)
