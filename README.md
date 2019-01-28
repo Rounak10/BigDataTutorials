@@ -3,10 +3,10 @@
 
 
 # Build Jar
-*First checkout and import this project in IntelliJ IDE.
-*Build the project.
-*Go to root of the directory and run --> ./gradlew build jar
-*After this Jar will be created in ReduceSideJoin/build/libs/
+First checkout and import this project in IntelliJ IDE.\
+Build the project.\
+Go to root of the directory and run --> ./gradlew build jar\
+After this Jar will be created in ReduceSideJoin/build/libs/
 
 
 # Upload Dataset to HDFS
