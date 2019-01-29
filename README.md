@@ -19,8 +19,7 @@ hadoop jar <jarName> <inputDatasetPathAndFile> <outputDirectory>
 
 Cust_details
 
-CustId,FirtName,LastName,Age,Profession
------- :-------: -------: --: ---------:
+CustId | FirtName | LastName | Age | Profession
 4000001,Kristina,Chung,55,Pilot
 4000002,Paige,Chen,74,Teacher
 4000003,Sherri,Melton,34,Firefighter
