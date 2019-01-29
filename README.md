@@ -19,6 +19,8 @@ hadoop jar <jarName> <inputDatasetPathAndFile> <outputDirectory>
 
 Cust_details
 
+CustId,FirtName,LastName,Age,Profession
+------ :-------: -------: --: ---------:
 4000001,Kristina,Chung,55,Pilot
 4000002,Paige,Chen,74,Teacher
 4000003,Sherri,Melton,34,Firefighter
@@ -32,6 +34,7 @@ Cust_details
 
 Transaction_details
 
+TransId,Date,CustId,Amount,GameType,Equipment,City,State,Mode
 00000000,06-26-2011,4000001,040.33,Exercise & Fitness,Cardio Machine Accessories,Clarksville,Tennessee,credit \
 00000001,05-26-2011,4000002,198.44,Exercise & Fitness,Weightlifting Gloves,Long Beach,California,credit \
 00000002,06-01-2011,4000002,005.58,Exercise & Fitness,Weightlifting Machine Accessories,Anaheim,California,credit \
